@@ -1,4 +1,6 @@
 def fizz_buzz(n)
+    #ruby xxxで実行してもbyebugのbreakpointを設定できる
+    #require 'byebug'; byebug
     if n % 15 == 0
       'Fizz Buzz'
     elsif n % 3 == 0
